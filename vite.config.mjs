@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     // 指定入口 HTML 文件
     rollupOptions: {
-      input: path.resolve(__dirname, 'src/views/home.html'),
+      input: path.resolve(__dirname, 'src/views/index.html'),
     },
     // 确保输出目录是 'dist'
     outDir: 'dist',
